@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+header, main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color:#275950;
+}
+
+.lamp {
+  margin-top: 20px;
+}
+
+button{
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background: #2A8C82;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button:hover{
+  background: #275950;
+}
